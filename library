@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 Library Management System</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#books">Books</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Our Library</h2>
+    <p>Read • Learn • Grow</p>
+</section>
+
+<section id="books">
+    <h2>Available Books</h2>
+    <table>
+        <tr>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>HTML & CSS</td>
+            <td>Jon Duckett</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Java Programming</td>
+            <td>James Gosling</td>
+            <td>Issued</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Python Basics</td>
+            <td>Guido van Rossum</td>
+            <td>Available</td>
+        </tr>
+    </table>
+</section>
+
+<section id="about">
+    <h2>About Library</h2>
+    <p>
+        This Library Management System helps students to find books easily.
+        It is a simple HTML based project for learning purposes.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: library@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2025 Library Management System</p>
+</footer>
+
+</body>
+</html>
